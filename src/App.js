@@ -31,7 +31,7 @@ function App() {
   return (
     <Fragment>
       <label>Ingresa un numero</label>
-      <input ref= {number} type="number"/>
+      <input id="entrada" ref= {number} type="number"/>
       <button onClick = {btnCrear}>Ok</button>
       <Multiplicaciones listResult = {listResult} multiplicador = {getMultiplicador}/>
     </Fragment>

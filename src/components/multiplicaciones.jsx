@@ -1,10 +1,10 @@
 import React from 'react'
-
+import '../App.css';
 
 export function Multiplicaciones({listResult, multiplicador}) {
     let i = 1;
     return (
-        <div>
+        <div id="tabla">
             <table>
                 <tbody>
                         {listResult.map((result) => {
