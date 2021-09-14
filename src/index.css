@@ -1,8 +1,7 @@
-html,body{
-    color: black;
-    background-color: rgb(255, 255, 137 );
+body{
+    color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
-    
+    font-size: 25px;
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190220/ourmid/pngtree-blackboard-cartoon-character-education-image_6004.jpg);
 }
 

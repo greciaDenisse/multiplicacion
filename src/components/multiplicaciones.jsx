@@ -19,6 +19,9 @@ export function Multiplicaciones({listResult, multiplicador}) {
                    
                 </tbody>
             </table>
+  
         </div>
+    
     )
+    
 }

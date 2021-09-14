@@ -30,10 +30,11 @@ function App() {
 
   return (
     <Fragment>
-      <label>Ingresa un numero</label>
+      <label id="nombre">Ingresa un número</label>
       <input id="entrada" ref= {number} type="number"/>
       <button onClick = {btnCrear}>Ok</button>
       <Multiplicaciones listResult = {listResult} multiplicador = {getMultiplicador}/>
+
     </Fragment>
   );
 }
