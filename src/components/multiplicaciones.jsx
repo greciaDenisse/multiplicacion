@@ -9,7 +9,7 @@ export function Multiplicaciones({listResult, multiplicador}) {
                 <tbody>
                         {listResult.map((result) => {
                             return ( <tr>
-                                    <th>{result}</th>
+                                    <th>{multiplicador}</th>
                                     <th>X</th>
                                     <th>{i++}</th>
                                     <th>=</th>
